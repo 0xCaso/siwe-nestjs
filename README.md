@@ -1,7 +1,9 @@
 # siwe-nestjs
-Simple web app to show the integration between NestJS and SIWE.
+Simple web app that shows the integration between NestJS and SIWE.
 
 Currently, the jwt secret is stored in a file in the backend, and the generated signed tokens are stored in a cookie (so the security level is not great).
+
+Access tokens expire in 1 minute.
 
 To test the application:
 - Run the backend:
